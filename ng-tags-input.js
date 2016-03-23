@@ -1,11 +1,11 @@
 /*!
- * ngTagsInput v3.0.1
+ * ngTagsInput v3.0.2
  * http://mbenford.github.io/ngTagsInput
  *
  * Copyright (c) 2013-2016 Michael Benford
  * License: MIT
  *
- * Generated at 2016-03-21 15:20:05 +0100
+ * Generated at 2016-03-23 16:56:12 +0100
  */
 (function() {
 'use strict';
@@ -1149,7 +1149,7 @@ tagsInput.run(["$templateCache", function($templateCache) {
   );
 
   $templateCache.put('ngTagsInput/tag-item.html',
-    "<span ng-bind=\"$getDisplayText()\"></span> <a class=\"remove-button\" ng-click=\"$removeTag()\" ng-bind=\"::$$removeTagSymbol\"></a>"
+    "<span ng-bind=\"$getDisplayText()\"></span> <button class=\"remove-button\" ng-click=\"$removeTag()\" ng-bind=\"::$$removeTagSymbol\"></button>"
   );
 
   $templateCache.put('ngTagsInput/auto-complete.html',
